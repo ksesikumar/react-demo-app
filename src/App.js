@@ -9,6 +9,7 @@ import PropsFunDemo from './PropsFunDemo';
 import PropsClassDemo from './PropsClassDemo';
 import ProductPage from './ProductPage';
 import SetStateParent from './Components/SetStateParent';
+import UseStateParent from './Components/UseStateParent';
 
 
 
@@ -28,8 +29,9 @@ function App() {
       <PropsFunDemo name="Sesi"></PropsFunDemo>
       <PropsClassDemo rollNumber="MRV02305"></PropsClassDemo>
       <ProductPage></ProductPage>
-      */}
       <SetStateParent></SetStateParent>
+      */}
+      <UseStateParent></UseStateParent>
     </div>
   );
 }
