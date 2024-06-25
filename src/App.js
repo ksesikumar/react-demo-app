@@ -10,6 +10,7 @@ import PropsClassDemo from './PropsClassDemo';
 import ProductPage from './ProductPage';
 import SetStateParent from './Components/SetStateParent';
 import UseStateParent from './Components/UseStateParent';
+import SetState from './Components/SetState';
 
 
 
@@ -30,8 +31,9 @@ function App() {
       <PropsClassDemo rollNumber="MRV02305"></PropsClassDemo>
       <ProductPage></ProductPage>
       <SetStateParent></SetStateParent>
-      */}
       <UseStateParent></UseStateParent>
+      */}
+      <SetState></SetState>
     </div>
   );
 }
