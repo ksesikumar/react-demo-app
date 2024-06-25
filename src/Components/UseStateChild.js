@@ -2,7 +2,7 @@ import React from "react";
 
 function UseStateChild({ onMessage }) {
 
-    const sendMessage = () => {
+    const sendMessage = ()=>{
         onMessage('hello from child!')
     }
 

@@ -6,7 +6,7 @@ function UseStateParent() {
 
     const [message, setMessage] = useState('');
 
-    const handleMessage = (msg) => {
+    const handleMessage =(msg)=>{
         setMessage(msg);
     }
     return (
