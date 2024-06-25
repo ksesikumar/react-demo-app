@@ -8,11 +8,14 @@ import FunctionComponentDemo from './FunctionComponentDemo';
 import PropsFunDemo from './PropsFunDemo';
 import PropsClassDemo from './PropsClassDemo';
 import ProductPage from './ProductPage';
+import SetStateParent from './Components/SetStateParent';
+
+
 
 function App() {
   return (
     <div className="App">
-      
+      {/*
       <h1>Hello This Is My First React Page</h1>
       <Overview></Overview>
       <Greet param="MRV Tach"></Greet>
@@ -25,6 +28,8 @@ function App() {
       <PropsFunDemo name="Sesi"></PropsFunDemo>
       <PropsClassDemo rollNumber="MRV02305"></PropsClassDemo>
       <ProductPage></ProductPage>
+      */}
+      <SetStateParent></SetStateParent>
     </div>
   );
 }
