@@ -12,6 +12,7 @@ import SetStateParent from './Components/SetStateParent';
 import UseStateParent from './Components/UseStateParent';
 import SetState from './Components/SetState';
 import LifeCycleDemoClassComp from './Components/LifeCycleDemoComp';
+import LifeCycleDemoFunComp from './Components/LifeCycleDemoFunComp';
 
 
 
@@ -34,8 +35,9 @@ function App() {
       <SetStateParent></SetStateParent>
       <UseStateParent></UseStateParent>
       <SetState></SetState>
-      */}
       <LifeCycleDemoClassComp></LifeCycleDemoClassComp>
+      */}
+      <LifeCycleDemoFunComp></LifeCycleDemoFunComp>
       
     </div>
   );
