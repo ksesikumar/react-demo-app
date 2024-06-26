@@ -11,6 +11,7 @@ import ProductPage from './ProductPage';
 import SetStateParent from './Components/SetStateParent';
 import UseStateParent from './Components/UseStateParent';
 import SetState from './Components/SetState';
+import LifeCycleDemoClassComp from './Components/LifeCycleDemoComp';
 
 
 
@@ -32,8 +33,10 @@ function App() {
       <ProductPage></ProductPage>
       <SetStateParent></SetStateParent>
       <UseStateParent></UseStateParent>
-      */}
       <SetState></SetState>
+      */}
+      <LifeCycleDemoClassComp></LifeCycleDemoClassComp>
+      
     </div>
   );
 }
