@@ -16,6 +16,7 @@ import LifeCycleDemoFunComp from './Components/LifeCycleDemoFunComp';
 import UserForm from './Components/UserForm';
 import DataFetcher from './Components/DataFetcher';
 import LoginForm from './Components/LoginForm';
+import Calculator from './Components/Calculator';
 
 
 
@@ -42,8 +43,10 @@ function App() {
       <LifeCycleDemoFunComp></LifeCycleDemoFunComp>
       <UserForm></UserFor>
       <DataFetcher></DataFetcher>
-      */}
       <LoginForm></LoginForm>
+      */}
+      <Calculator></Calculator>
+      
       
       
       
