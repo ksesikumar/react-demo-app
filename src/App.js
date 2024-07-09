@@ -15,6 +15,7 @@ import LifeCycleDemoClassComp from './Components/LifeCycleDemoComp';
 import LifeCycleDemoFunComp from './Components/LifeCycleDemoFunComp';
 import UserForm from './Components/UserForm';
 import DataFetcher from './Components/DataFetcher';
+import LoginForm from './Components/LoginForm';
 
 
 
@@ -40,8 +41,10 @@ function App() {
       <LifeCycleDemoClassComp></LifeCycleDemoClassComp>
       <LifeCycleDemoFunComp></LifeCycleDemoFunComp>
       <UserForm></UserFor>
-      */}
       <DataFetcher></DataFetcher>
+      */}
+      <LoginForm></LoginForm>
+      
       
       
     </div>
