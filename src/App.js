@@ -14,6 +14,7 @@ import SetState from './Components/SetState';
 import LifeCycleDemoClassComp from './Components/LifeCycleDemoComp';
 import LifeCycleDemoFunComp from './Components/LifeCycleDemoFunComp';
 import UserForm from './Components/UserForm';
+import DataFetcher from './Components/DataFetcher';
 
 
 
@@ -38,8 +39,10 @@ function App() {
       <SetState></SetState>
       <LifeCycleDemoClassComp></LifeCycleDemoClassComp>
       <LifeCycleDemoFunComp></LifeCycleDemoFunComp>
+      <UserForm></UserFor>
       */}
-      <UserForm></UserForm>
+      <DataFetcher></DataFetcher>
+      
       
     </div>
   );
