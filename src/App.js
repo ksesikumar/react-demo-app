@@ -13,6 +13,7 @@ import UseStateParent from './Components/UseStateParent';
 import SetState from './Components/SetState';
 import LifeCycleDemoClassComp from './Components/LifeCycleDemoComp';
 import LifeCycleDemoFunComp from './Components/LifeCycleDemoFunComp';
+import UserForm from './Components/UserForm';
 
 
 
@@ -36,8 +37,9 @@ function App() {
       <UseStateParent></UseStateParent>
       <SetState></SetState>
       <LifeCycleDemoClassComp></LifeCycleDemoClassComp>
-      */}
       <LifeCycleDemoFunComp></LifeCycleDemoFunComp>
+      */}
+      <UserForm></UserForm>
       
     </div>
   );
